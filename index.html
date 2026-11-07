@@ -56,8 +56,15 @@
     .cliente{display:flex;gap:14px;align-items:center;background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio);padding:14px;box-shadow:var(--sombra);transition:transform .16s,box-shadow .16s;min-width:0}
     .cliente:hover,.cliente:focus-visible{transform:translateY(-3px);box-shadow:0 14px 32px rgba(11,18,32,.12)}
     .cliente:focus-visible{outline:3px solid var(--acento);outline-offset:2px}
-    .cliente-logo{flex:0 0 auto;width:56px;height:56px;border-radius:14px;overflow:hidden;background:#F1EDE4;display:grid;place-items:center;border:1px solid var(--borde)}
-    .cliente-logo img{width:100%;height:100%;object-fit:cover;display:block}
+    .cliente-logo{flex:0 0 auto;width:56px;height:56px;border-radius:14px;overflow:hidden;background:#FFFFFF;display:grid;place-items:center;border:1px solid var(--borde)}
+    @media(min-width:640px){.cliente-logo{width:64px;height:64px}}
+    /* Logos casi blancos (UneFibra, entre otros): sobre blanco no se ven. Caja oscura para que el
+       logotipo aparezca completo y legible. */
+    .cliente-logo--oscuro{background:#0B1220;border-color:#0B1220}
+    /* KZ-QA-008 · con object-fit:cover los logos anchos (el de UneFibra es el caso claro) se
+       recortaban por los lados y parecían deformados. Con contain + relleno se ve el logo entero y
+       con su proporción original en cualquier tamaño de pantalla. */
+    .cliente-logo img{width:100%;height:100%;object-fit:contain;object-position:center;padding:5px;display:block}
     .inicial{font-weight:900;font-size:22px;color:var(--tinta)}
     .cliente-texto{min-width:0;display:flex;flex-direction:column;gap:2px}
     .cliente-texto strong{font-size:.98rem;line-height:1.25}
@@ -187,7 +194,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/dg_ventas_avaluos/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/dg-ventas-avaluos.png" alt="Logotipo de David Andrés Gutiérrez" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/dg-ventas-avaluos.png" alt="Logotipo de David Andrés Gutiérrez" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>David Andrés Gutiérrez</strong>
             <small>Gestión y consultoría agropecuaria en Medellín. Avalúos comerciales, venta de predios, administración rural y…</small>
@@ -195,7 +202,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/deicy-buitrago/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/deicy-buitrago.png" alt="Logotipo de Deicy Buitrago" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/deicy-buitrago.png" alt="Logotipo de Deicy Buitrago" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>Deicy Buitrago</strong>
             <small>Deicy Yolima Buitrago Arismendy, Administradora de Propiedad Horizontal. Especialista en Gerencia y PNL Pract…</small>
@@ -235,7 +242,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/gp/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/gael-pineda-multiservicios-lotes-campestres.png" alt="Logotipo de Gael Pineda" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/gael-pineda-multiservicios-lotes-campestres.png" alt="Logotipo de Gael Pineda" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>Gael Pineda</strong>
             <small>Lotes campestres en Sabanagrande, Palmar de Varela y Villa Nora (Atlántico). Desde 1.000 m² con financiación…</small>
@@ -259,7 +266,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/lizeth_lozano/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/lizet-lozano.png" alt="Logotipo de Lizeth Lozano" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/lizet-lozano.png" alt="Logotipo de Lizeth Lozano" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>Lizeth Lozano</strong>
             <small>Contadora pública con atención 100% virtual en toda Colombia. Declaración de renta, planeación tributaria, ce…</small>
@@ -275,7 +282,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/mega-express/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/mega-express.png" alt="Logotipo de Mega Express Soluciones" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/mega-express.png" alt="Logotipo de Mega Express Soluciones" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>Mega Express Soluciones</strong>
             <small>Internet por fibra óptica simétrica con 5 planes desde $50.000 COP/mes. Sin estudio de crédito, apto para rep…</small>
@@ -291,7 +298,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/np-style/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/np-style-corte-y-color.png" alt="Logotipo de NP Style Corte y Color" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/np-style-corte-y-color.png" alt="Logotipo de NP Style Corte y Color" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>NP Style Corte y Color</strong>
             <small>Estudio de belleza en Yopal, Casanare. Diseños de color, alisados, terapia Micro Mist y cortes a la medida. A…</small>
@@ -315,7 +322,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/quiromasajes-gap/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/quiromasajes-gap.webp" alt="Logotipo de Quiromasajes GAP" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/quiromasajes-gap.webp" alt="Logotipo de Quiromasajes GAP" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>Quiromasajes GAP</strong>
             <small>Quiropraxia, osteopatía y masajes terapéuticos a domicilio en Soacha y Bogotá. Germán Agudelo, terapeuta cert…</small>
@@ -323,7 +330,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/samem/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/samem.png" alt="Logotipo de SAMEM" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/samem.png" alt="Logotipo de SAMEM" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>SAMEM</strong>
             <small>SAMEM · Empresa de seguridad en el hogar. Instalación, mantenimiento y reparación de cámaras de seguridad, al…</small>
@@ -331,7 +338,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/unefibra-card/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/unefibra-card.png" alt="Logotipo de UneFibra SAS · tarjeta" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/unefibra-card.png" alt="Logotipo de UneFibra SAS · tarjeta" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>UneFibra SAS · tarjeta</strong>
             <small>Internet por fibra óptica que sí se siente. Planes desde $50.000. Instalación 100% en fibra óptica en Medellí…</small>
@@ -351,7 +358,7 @@
         </header>
         <div class="rejilla">
         <a class="cliente" href="https://konfiozinc.github.io/isa-arenas/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/isa-arenas.png" alt="Logotipo de Calzados ISA Arenas" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/isa-arenas.png" alt="Logotipo de Calzados ISA Arenas" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>Calzados ISA Arenas</strong>
             <small>Calzados ISA Arenas: catálogo de calzado con estilo y comodidad. Pide por WhatsApp y conoce nuestras líneas.</small>
@@ -411,7 +418,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/redcalinet/" target="_blank" rel="noopener">
-          <span class="cliente-logo"><img src="assets/logos/redcalinet.png" alt="Logotipo de Red CaliNet" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/redcalinet.png" alt="Logotipo de Red CaliNet" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>Red CaliNet</strong>
             <small>Red CaliNet en Bello, Antioquia: streaming, trámites y citas, TV por aplicación y tecnología (equipos y acces…</small>

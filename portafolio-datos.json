@@ -20,8 +20,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\3-TARJETAS-ELITE\\DTA-Abogados\\assets\\logo\\icon-512.png",
     "logoDestino": "assets/logos/dta-abogados.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.14,
+    "medidas": "512×512"
   },
   {
     "proyecto": "8-MENUS-DIGITALES/brosty-papas",
@@ -32,8 +32,8 @@
     "categoria": "menus",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\8-MENUS-DIGITALES\\brosty-papas\\assets\\img\\marca\\logo-brosty-transparente.png",
     "logoDestino": "assets/logos/brosty-papas.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.681,
+    "medidas": "640×640"
   },
   {
     "proyecto": "2-TARJETAS-PRO/Calixto Acordeon Magico",
@@ -44,8 +44,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\2-TARJETAS-PRO\\Calixto Acordeon Magico\\assets\\img\\icon-512.png",
     "logoDestino": "assets/logos/calixto-acordeon-magico.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.54,
+    "medidas": "512×512"
   },
   {
     "proyecto": "7-CATALOGOS/ISA ARENAS",
@@ -56,8 +56,8 @@
     "categoria": "catalogos",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\7-CATALOGOS\\ISA ARENAS\\_backup\\dta-logo.png",
     "logoDestino": "assets/logos/isa-arenas.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.735,
+    "medidas": "1254×1254"
   },
   {
     "proyecto": "2-TARJETAS-PRO/Carniceria la Milagrosa",
@@ -80,8 +80,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\Carranga\\icons\\icon-512.png",
     "logoDestino": "assets/logos/carranga.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.41,
+    "medidas": "512×512"
   },
   {
     "proyecto": "4-TARJETAS-PREMIUM/Nomina Centinela",
@@ -92,8 +92,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\4-TARJETAS-PREMIUM\\Nomina Centinela\\assets\\icons\\icon-512.png",
     "logoDestino": "assets/logos/nomina-centinela.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.228,
+    "medidas": "512×512"
   },
   {
     "proyecto": "8-MENUS-DIGITALES/Colsabor",
@@ -104,8 +104,8 @@
     "categoria": "menus",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\8-MENUS-DIGITALES\\Colsabor\\assets\\icons\\icon-512.png",
     "logoDestino": "assets/logos/colsabor.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.637,
+    "medidas": "512×512"
   },
   {
     "proyecto": "2-TARJETAS-PRO/Comando-Site",
@@ -128,8 +128,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\DG VENTAS-AVALUOS\\icons\\icon-512.png",
     "logoDestino": "assets/logos/dg-ventas-avaluos.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.725,
+    "medidas": "512×512"
   },
   {
     "proyecto": "2-TARJETAS-PRO/Deicy Buitrago",
@@ -140,8 +140,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\2-TARJETAS-PRO\\Deicy Buitrago\\assets\\logo\\icon-512.png",
     "logoDestino": "assets/logos/deicy-buitrago.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.791,
+    "medidas": "512×512"
   },
   {
     "proyecto": "2-TARJETAS-PRO/DondeCompro",
@@ -164,8 +164,8 @@
     "categoria": "menus",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\8-MENUS-DIGITALES\\Eltiti\\assets\\logo\\logo-el-titi.png",
     "logoDestino": "assets/logos/eltiti.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.243,
+    "medidas": "1254×1254"
   },
   {
     "proyecto": "3-TARJETAS-ELITE/AbogadoFabianRinconCast",
@@ -176,8 +176,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\3-TARJETAS-ELITE\\AbogadoFabianRinconCast\\assets\\logo\\icon-512.png",
     "logoDestino": "assets/logos/abogadofabianrinconcast.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.393,
+    "medidas": "512×512"
   },
   {
     "proyecto": "1-TARJETAS-START/FUMIG MASTER",
@@ -188,8 +188,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\FUMIG MASTER\\icons\\icon-512.png",
     "logoDestino": "assets/logos/fumig-master.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.349,
+    "medidas": "512×512"
   },
   {
     "proyecto": "1-TARJETAS-START/Fumigacion Monterrey",
@@ -200,8 +200,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\Fumigacion Monterrey\\icons\\icon-512.png",
     "logoDestino": "assets/logos/fumigacion-monterrey.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.529,
+    "medidas": "512×512"
   },
   {
     "proyecto": "2-TARJETAS-PRO/Gael Pineda - Multiservicios & Lotes Campestres",
@@ -212,8 +212,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\2-TARJETAS-PRO\\Gael Pineda - Multiservicios & Lotes Campestres\\icons\\icon-512.png",
     "logoDestino": "assets/logos/gael-pineda-multiservicios-lotes-campestres.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.931,
+    "medidas": "512×512"
   },
   {
     "proyecto": "1-TARJETAS-START/CENTURY 21 Radial",
@@ -224,8 +224,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\CENTURY 21 Radial\\icons\\icon-512.png",
     "logoDestino": "assets/logos/century-21-radial.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.239,
+    "medidas": "512×512"
   },
   {
     "proyecto": "6-LANDING-PAGES/Konfio-Sports",
@@ -236,8 +236,8 @@
     "categoria": "landings",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\6-LANDING-PAGES\\Konfio-Sports\\assets\\icon-512.png",
     "logoDestino": "assets/logos/konfio-sports.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.049,
+    "medidas": "512×512"
   },
   {
     "proyecto": "1-TARJETAS-START/La Cañada Style",
@@ -248,8 +248,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\La Cañada Style\\icons\\icon-512.png",
     "logoDestino": "assets/logos/la-canada-style.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.611,
+    "medidas": "512×512"
   },
   {
     "proyecto": "2-TARJETAS-PRO/Lizet_Lozano",
@@ -260,8 +260,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\2-TARJETAS-PRO\\Lizet_Lozano\\icons\\icon-512.png",
     "logoDestino": "assets/logos/lizet-lozano.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.824,
+    "medidas": "512×512"
   },
   {
     "proyecto": "2-TARJETAS-PRO/Make-Up",
@@ -272,8 +272,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\2-TARJETAS-PRO\\Make-Up\\_backup\\logo-original.png",
     "logoDestino": "assets/logos/make-up.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.418,
+    "medidas": "1254×1254"
   },
   {
     "proyecto": "1-TARJETAS-START/Mega Express",
@@ -284,8 +284,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\Mega Express\\icons\\icon-512.png",
     "logoDestino": "assets/logos/mega-express.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.85,
+    "medidas": "512×512"
   },
   {
     "proyecto": "2-TARJETAS-PRO/Nandy-Nails",
@@ -296,8 +296,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\2-TARJETAS-PRO\\Nandy-Nails\\icons\\icon-512.png",
     "logoDestino": "assets/logos/nandy-nails.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.123,
+    "medidas": "512×512"
   },
   {
     "proyecto": "7-CATALOGOS/NBC-Company",
@@ -308,8 +308,8 @@
     "categoria": "catalogos",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\7-CATALOGOS\\NBC-Company\\icons\\icon-512.png",
     "logoDestino": "assets/logos/nbc-company.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.508,
+    "medidas": "512×512"
   },
   {
     "proyecto": "1-TARJETAS-START/NP Style Corte y Color",
@@ -320,8 +320,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\NP Style Corte y Color\\icons\\icon-512.png",
     "logoDestino": "assets/logos/np-style-corte-y-color.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.875,
+    "medidas": "512×512"
   },
   {
     "proyecto": "1-TARJETAS-START/Nutridrink",
@@ -332,8 +332,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\Nutridrink\\icons\\icon-512.png",
     "logoDestino": "assets/logos/nutridrink.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.425,
+    "medidas": "512×512"
   },
   {
     "proyecto": "6-LANDING-PAGES/PANGEA",
@@ -344,8 +344,8 @@
     "categoria": "landings",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\6-LANDING-PAGES\\PANGEA\\assets\\icons\\icon-512.png",
     "logoDestino": "assets/logos/pangea.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.701,
+    "medidas": "512×512"
   },
   {
     "proyecto": "6-LANDING-PAGES/Postres-Snoopy",
@@ -356,8 +356,8 @@
     "categoria": "landings",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\6-LANDING-PAGES\\Postres-Snoopy\\assets\\logo\\logo-200.webp",
     "logoDestino": "assets/logos/postres-snoopy.webp",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.712,
+    "medidas": "200×200"
   },
   {
     "proyecto": "1-TARJETAS-START/PRORED - FEDPAZCO",
@@ -368,8 +368,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\PRORED - FEDPAZCO\\icons\\icon-512.png",
     "logoDestino": "assets/logos/prored-fedpazco.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.384,
+    "medidas": "512×512"
   },
   {
     "proyecto": "3-TARJETAS-ELITE/Quiromasajes-gap",
@@ -380,8 +380,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\3-TARJETAS-ELITE\\Quiromasajes-gap\\assets\\icons\\logo.webp",
     "logoDestino": "assets/logos/quiromasajes-gap.webp",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.924,
+    "medidas": "512×341"
   },
   {
     "proyecto": "6-LANDING-PAGES/RedCaliNet",
@@ -392,8 +392,8 @@
     "categoria": "landings",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\6-LANDING-PAGES\\RedCaliNet\\capturas\\redcalinet-catalogo-completo.png",
     "logoDestino": "assets/logos/redcalinet.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.844,
+    "medidas": "375×10026"
   },
   {
     "proyecto": "3-TARJETAS-ELITE/SAMEM",
@@ -404,8 +404,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\3-TARJETAS-ELITE\\SAMEM\\assets\\img\\icon-512.png",
     "logoDestino": "assets/logos/samem.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.921,
+    "medidas": "512×512"
   },
   {
     "proyecto": "1-TARJETAS-START/UneFibra-card",
@@ -416,8 +416,8 @@
     "categoria": "tarjetas",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\1-TARJETAS-START\\UneFibra-card\\icons\\icon-512.png",
     "logoDestino": "assets/logos/unefibra-card.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.948,
+    "medidas": "512×512"
   },
   {
     "proyecto": "6-LANDING-PAGES/UneFibra-SAS",
@@ -428,7 +428,7 @@
     "categoria": "landings",
     "logoOrigen": "C:\\Users\\usuario29\\Documents\\KONFIO_ZINC\\6-LANDING-PAGES\\UneFibra-SAS\\assets\\icons\\icon-512.png",
     "logoDestino": "assets/logos/unefibra-sas.png",
-    "luminancia": null,
-    "medidas": null
+    "luminancia": 0.111,
+    "medidas": "512×512"
   }
 ]
