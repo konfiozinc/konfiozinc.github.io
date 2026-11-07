@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio KONFÍO ZINC — 36 negocios con su web propia</title>
+  <meta name="description" content="Portafolio de KONFÍO ZINC: 36 negocios colombianos con menú digital, tarjeta de presentación, catálogo o landing page propia. Casos reales, enlaces vivos.">
+  <meta name="author" content="KONFÍO ZINC">
+  <meta property="og:title" content="Portafolio KONFÍO ZINC — 36 negocios con su web propia">
+  <meta property="og:description" content="Menús digitales, tarjetas de presentación, catálogos y landing pages hechos por KONFÍO ZINC. Casos reales con enlace directo.">
+  <meta property="og:image" content="https://konfiozinc.github.io/card/assets/img/og/og-portafolio.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://konfiozinc.github.io/">
+  <meta property="og:site_name" content="KONFÍO ZINC">
+  <meta property="og:locale" content="es_CO">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="assets/marca/favicon-64.png">
+  <style>
+    :root{
+      --tinta:#0B1220; --tinta2:#4B5563; --fondo:#F7F5F0; --blanco:#FFFFFF;
+      --acento:#F0B429; --borde:#E4DFD4; --radio:18px;
+      --sombra:0 1px 2px rgba(11,18,32,.06),0 8px 24px rgba(11,18,32,.06);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--fondo);color:var(--tinta);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    .cont{width:100%;max-width:1120px;margin:0 auto;padding:0 20px}
+    @media(min-width:768px){.cont{padding:0 28px}}
+
+    header.hero{background:var(--tinta);color:#fff;padding:46px 0 40px}
+    .marca{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+    .marca-sello{width:44px;height:44px;border-radius:12px;background:var(--acento);color:var(--tinta);display:grid;place-items:center;font-weight:900;font-size:20px}
+    .marca h1{margin:0;font-size:clamp(1.25rem,3.4vw,1.6rem);letter-spacing:.4px}
+    .marca p{margin:2px 0 0;color:#C7CDD8;font-size:.86rem}
+    .hero h2{margin:26px 0 10px;font-size:clamp(1.6rem,5vw,2.5rem);line-height:1.15;max-width:24ch}
+    .hero h2 b{color:var(--acento)}
+    .hero .bajada{margin:0;color:#C7CDD8;max-width:60ch}
+    nav.migas{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+    nav.migas a{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:8px 14px;font-size:.85rem}
+    nav.migas a:hover{background:rgba(255,255,255,.16)}
+    nav.migas b{color:var(--acento)}
+
+    main{padding:36px 0 20px}
+    .grupo{margin:0 0 44px;scroll-margin-top:20px}
+    .grupo-cab{display:flex;gap:14px;align-items:flex-start;margin:0 0 18px}
+    .grupo-icono{font-size:26px;line-height:1}
+    .grupo-cab h2{margin:0;font-size:clamp(1.15rem,3vw,1.45rem)}
+    .cuenta{display:inline-block;margin-left:6px;background:var(--acento);color:var(--tinta);border-radius:999px;padding:1px 10px;font-size:.78rem;vertical-align:2px}
+    .grupo-cab p{margin:4px 0 0;color:var(--tinta2);font-size:.92rem}
+    .rejilla{display:grid;gap:12px;grid-template-columns:1fr}
+    @media(min-width:640px){.rejilla{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}}
+    @media(min-width:1000px){.rejilla{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    .cliente{display:flex;gap:14px;align-items:center;background:var(--blanco);border:1px solid var(--borde);border-radius:var(--radio);padding:14px;box-shadow:var(--sombra);transition:transform .16s,box-shadow .16s;min-width:0}
+    .cliente:hover,.cliente:focus-visible{transform:translateY(-3px);box-shadow:0 14px 32px rgba(11,18,32,.12)}
+    .cliente:focus-visible{outline:3px solid var(--acento);outline-offset:2px}
+    .cliente-logo{flex:0 0 auto;width:56px;height:56px;border-radius:14px;overflow:hidden;background:#F1EDE4;display:grid;place-items:center;border:1px solid var(--borde)}
+    .cliente-logo img{width:100%;height:100%;object-fit:cover;display:block}
+    .inicial{font-weight:900;font-size:22px;color:var(--tinta)}
+    .cliente-texto{min-width:0;display:flex;flex-direction:column;gap:2px}
+    .cliente-texto strong{font-size:.98rem;line-height:1.25}
+    .cliente-texto small{color:var(--tinta2);font-size:.82rem;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .cliente-flecha{margin-left:auto;color:var(--tinta2);font-weight:700}
+
+    footer{background:var(--tinta);color:#C7CDD8;padding:34px 0;margin-top:20px;font-size:.88rem}
+    footer strong{color:#fff}
+    footer a{color:#fff;text-decoration:underline}
+    .pie-fila{display:flex;gap:20px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cliente{transition:none}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="cont">
+      <div class="marca">
+        <span class="marca-sello" aria-hidden="true">K</span>
+        <div>
+          <h1>KONFÍO ZINC</h1>
+          <p>Soluciones digitales · Medellín, Colombia</p>
+        </div>
+      </div>
+      <h2>36 negocios con su <b>propia web</b>, listos para abrir.</h2>
+      <p class="bajada">Menús digitales, tarjetas de presentación, catálogos y landing pages. Todos estos sitios son reales, están publicados y se pueden abrir desde aquí.</p>
+      <nav class="migas" aria-label="Ir a una categoría">
+        <a href="#menus">Menús digitales <b>3</b></a>
+        <a href="#tarjetas">Tarjetas de presentación <b>25</b></a>
+        <a href="#catalogos">Catálogos y tiendas <b>2</b></a>
+        <a href="#landings">Landing pages y sitios <b>6</b></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cont">
+      <section class="grupo" id="menus">
+        <header class="grupo-cab">
+          <span class="grupo-icono" aria-hidden="true">🍽️</span>
+          <div>
+            <h2>Menús digitales <span class="cuenta">3</span></h2>
+            <p>Cartas con precios y pedido directo por WhatsApp.</p>
+          </div>
+        </header>
+        <div class="rejilla">
+        <a class="cliente" href="https://konfiozinc.github.io/brosty-papas/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/brosty-papas.png" alt="Logotipo de BROSTY PAPAS" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>BROSTY PAPAS</strong>
+            <small>Pollo broaster y asado, combos, salchipapas y limonadas en Barrio Nueva Jerusalén. Pide por WhatsApp y pregun…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/colsabor/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/colsabor.png" alt="Logotipo de Col Sabor" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Col Sabor</strong>
+            <small>Tarjeta digital de Colsabor: contacto, servicios y ubicación en un solo enlace. Creada por KONFÍO ZINC.</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/eltiti/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/eltiti.png" alt="Logotipo de El Titi" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>El Titi</strong>
+            <small>Tarjeta digital de Eltiti: contacto, servicios y ubicación en un solo enlace. Creada por KONFÍO ZINC.</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        </div>
+      </section>
+
+      <section class="grupo" id="tarjetas">
+        <header class="grupo-cab">
+          <span class="grupo-icono" aria-hidden="true">💼</span>
+          <div>
+            <h2>Tarjetas de presentación <span class="cuenta">25</span></h2>
+            <p>La tarjeta del negocio, con contacto, servicios y ubicación.</p>
+          </div>
+        </header>
+        <div class="rejilla">
+        <a class="cliente" href="https://konfiozinc.github.io/abogados-dta/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/dta-abogados.png" alt="Logotipo de Alí Montalvo Avila" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Alí Montalvo Avila</strong>
+            <small>Tarjeta digital de Alí Montalvo Avila, abogado de Abogados DTA. Asesoría legal en derecho administrativo, con…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/calixto_acordeon_magico/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/calixto-acordeon-magico.png" alt="Logotipo de Calixto Acordeón Mágico" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Calixto Acordeón Mágico</strong>
+            <small>Calixto Acordeón Mágico — Acordeonista, cantante y animador profesional en Bucaramanga. Vallenato, música pop…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/carniceria_la_milagrosa/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><span class="inicial" aria-hidden="true">C</span></span>
+          <span class="cliente-texto">
+            <strong>Carnicería La Milagrosa</strong>
+            <small>Tarjeta digital de Carniceria la Milagrosa: contacto, servicios y ubicación en un solo enlace. Creada por KON…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/the-big-bang-carranga/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/carranga.png" alt="Logotipo de Carranga" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Carranga</strong>
+            <small>The Big Bang Carranga: agrupación de carranga profesional para fiestas, parrandas, bodas y eventos empresaria…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/nomina_centinela/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/nomina-centinela.png" alt="Logotipo de Centinela" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Centinela</strong>
+            <small>Centinela — Calculadora de liquidación de nómina y turnos. Herramienta interna para verificar colillas.</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/comando/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><span class="inicial" aria-hidden="true">C</span></span>
+          <span class="cliente-texto">
+            <strong>COMANDO</strong>
+            <small>COMANDO: pickup y sonido para quince años, graduaciones, cumpleaños y celebraciones especiales. Solicita una…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/dg_ventas_avaluos/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/dg-ventas-avaluos.png" alt="Logotipo de David Andrés Gutiérrez" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>David Andrés Gutiérrez</strong>
+            <small>Gestión y consultoría agropecuaria en Medellín. Avalúos comerciales, venta de predios, administración rural y…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/deicy-buitrago/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/deicy-buitrago.png" alt="Logotipo de Deicy Buitrago" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Deicy Buitrago</strong>
+            <small>Deicy Yolima Buitrago Arismendy, Administradora de Propiedad Horizontal. Especialista en Gerencia y PNL Pract…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/dondecompro/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><span class="inicial" aria-hidden="true">D</span></span>
+          <span class="cliente-texto">
+            <strong>DondeCompro</strong>
+            <small>Tarjeta digital de DondeCompro: contacto, servicios y ubicación en un solo enlace. Creada por KONFÍO ZINC.</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/fcr_alianza_legal/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/abogadofabianrinconcast.png" alt="Logotipo de Fabián Rincón C." width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Fabián Rincón C.</strong>
+            <small>Tarjeta digital profesional de Fabián Rincón C., abogado especializado en derecho laboral individual y colect…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/fumig_master/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/fumig-master.png" alt="Logotipo de Fumig Master" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Fumig Master</strong>
+            <small>Servicio profesional de fumigación y manejo integrado de plagas: control de cucarachas, chinches, hormigas, r…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/fumigaciones-monterrey/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/fumigacion-monterrey.png" alt="Logotipo de Fumigación Monterrey" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Fumigación Monterrey</strong>
+            <small>Fumigaciones Monterrey INC: control de plagas e insectos en Riohacha. Industrias, hoteles, colegios, hospital…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/gp/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/gael-pineda-multiservicios-lotes-campestres.png" alt="Logotipo de Gael Pineda" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Gael Pineda</strong>
+            <small>Lotes campestres en Sabanagrande, Palmar de Varela y Villa Nora (Atlántico). Desde 1.000 m² con financiación…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/century_21_radial/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/century-21-radial.png" alt="Logotipo de Juliana Zapata A." width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Juliana Zapata A.</strong>
+            <small>Agente inmobiliario profesional de CENTURY 21 Radial en Medellín. Venta, arriendos, avalúos y trámites legale…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/ca-ada_style/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/la-canada-style.png" alt="Logotipo de La Cañada Style" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>La Cañada Style</strong>
+            <small>Peluquería y estilismo profesional en El Morro, La Cañada. Corte de autor, barba, tinte, mechas y manicura. A…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/lizeth_lozano/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/lizet-lozano.png" alt="Logotipo de Lizeth Lozano" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Lizeth Lozano</strong>
+            <small>Contadora pública con atención 100% virtual en toda Colombia. Declaración de renta, planeación tributaria, ce…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/make-up/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/make-up.png" alt="Logotipo de Make-up" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Make-up</strong>
+            <small>Make-up by Nicole Montalvo: visajismo, maquillaje HD, colorimetría y peinados de gala. Agenda tu cita de bell…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/mega-express/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/mega-express.png" alt="Logotipo de Mega Express Soluciones" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Mega Express Soluciones</strong>
+            <small>Internet por fibra óptica simétrica con 5 planes desde $50.000 COP/mes. Sin estudio de crédito, apto para rep…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/nandy-nails/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/nandy-nails.png" alt="Logotipo de Nandy Nails" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Nandy Nails</strong>
+            <small>Nandy Nails by Yulieth Montalvo: salud de la uña, sistemas artificiales, esmaltado semipermanente y nail art…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/np-style/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/np-style-corte-y-color.png" alt="Logotipo de NP Style Corte y Color" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>NP Style Corte y Color</strong>
+            <small>Estudio de belleza en Yopal, Casanare. Diseños de color, alisados, terapia Micro Mist y cortes a la medida. A…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/nutridrink/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/nutridrink.png" alt="Logotipo de Nutridrink" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Nutridrink</strong>
+            <small>Nutridrink: nutrición y bienestar con respaldo científico. Alimento con Ciencia. Atención en Bogotá (Barrio N…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/prored_fedpazco/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/prored-fedpazco.png" alt="Logotipo de PRORED" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>PRORED</strong>
+            <small>PRORED - FEDPAZCO: programa de la Fundación FEDPAZCO. Red de profesionales, docentes pensionados, aliados y e…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/quiromasajes-gap/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/quiromasajes-gap.webp" alt="Logotipo de Quiromasajes GAP" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Quiromasajes GAP</strong>
+            <small>Quiropraxia, osteopatía y masajes terapéuticos a domicilio en Soacha y Bogotá. Germán Agudelo, terapeuta cert…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/samem/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/samem.png" alt="Logotipo de SAMEM" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>SAMEM</strong>
+            <small>SAMEM · Empresa de seguridad en el hogar. Instalación, mantenimiento y reparación de cámaras de seguridad, al…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/unefibra-card/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/unefibra-card.png" alt="Logotipo de UneFibra SAS · tarjeta" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>UneFibra SAS · tarjeta</strong>
+            <small>Internet por fibra óptica que sí se siente. Planes desde $50.000. Instalación 100% en fibra óptica en Medellí…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        </div>
+      </section>
+
+      <section class="grupo" id="catalogos">
+        <header class="grupo-cab">
+          <span class="grupo-icono" aria-hidden="true">🛍️</span>
+          <div>
+            <h2>Catálogos y tiendas <span class="cuenta">2</span></h2>
+            <p>Productos con precios, filtros y pedido por WhatsApp.</p>
+          </div>
+        </header>
+        <div class="rejilla">
+        <a class="cliente" href="https://konfiozinc.github.io/isa-arenas/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/isa-arenas.png" alt="Logotipo de Calzados ISA Arenas" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Calzados ISA Arenas</strong>
+            <small>Calzados ISA Arenas: catálogo de calzado con estilo y comodidad. Pide por WhatsApp y conoce nuestras líneas.</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/nbc-company/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/nbc-company.png" alt="Logotipo de NBC Company" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>NBC Company</strong>
+            <small>NBC Company, distribuidor autorizado Royal Prestige en Palmira. Utensilios de cocina en acero quirúrgico 316L…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        </div>
+      </section>
+
+      <section class="grupo" id="landings">
+        <header class="grupo-cab">
+          <span class="grupo-icono" aria-hidden="true">🚀</span>
+          <div>
+            <h2>Landing pages y sitios <span class="cuenta">6</span></h2>
+            <p>Páginas de servicio y proyectos con panel propio.</p>
+          </div>
+        </header>
+        <div class="rejilla">
+        <a class="cliente" href="https://konfiozinc.github.io/adopta/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><span class="inicial" aria-hidden="true">A</span></span>
+          <span class="cliente-texto">
+            <strong>Adopta</strong>
+            <small>Adopta — Tu próximo compañero te espera. Encuentra y adopta mascotas cerca de ti.</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/konfio-sports/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/konfio-sports.png" alt="Logotipo de KONFÍO SPORTS" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>KONFÍO SPORTS</strong>
+            <small>KONFÍO SPORTS reúne canales y señales abiertas para ver fútbol colombiano, sudamericano, español y europeo gr…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/pangea/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/pangea.png" alt="Logotipo de PANGEA" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>PANGEA</strong>
+            <small>Herramientas de coordinación para donde no llega la red: un puesto de salud a cuatro horas del hospital, un c…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/postres/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/postres-snoopy.webp" alt="Logotipo de Postres Snoopy" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Postres Snoopy</strong>
+            <small>Fresas con crema y postres hechos al momento en Medellín. Pide por WhatsApp: fresas con crema, chocolate, car…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/redcalinet/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/redcalinet.png" alt="Logotipo de Red CaliNet" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>Red CaliNet</strong>
+            <small>Red CaliNet en Bello, Antioquia: streaming, trámites y citas, TV por aplicación y tecnología (equipos y acces…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/unefibra/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/unefibra-sas.png" alt="Logotipo de UneFibra SAS · web" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>UneFibra SAS · web</strong>
+            <small>Internet 100% fibra óptica en Medellín. Planes desde $50.000, sin contratos, instalación rápida. ¡Consulta co…</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        </div>
+      </section>
+  </main>
+
+  <footer>
+    <div class="cont pie-fila">
+      <span>Hecho por <strong>KONFÍO ZINC</strong> · Diseñado por <a href="https://konfiozinc.github.io/card/" target="_blank" rel="noopener">KONFÍO ZINC</a> · <a href="https://konfiozinc.github.io/card/privacidad.html">Políticas de Privacidad</a></span>
+      <span>¿Quieres el tuyo? <a href="https://wa.me/573206411340" target="_blank" rel="noopener">WhatsApp +57 320 641 1340</a></span>
+    </div>
+  </footer>
+</body>
+</html>
