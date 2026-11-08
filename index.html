@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portafolio KONFÍO ZINC — 36 negocios con su web propia</title>
-  <meta name="description" content="Portafolio de KONFÍO ZINC: 36 negocios colombianos con menú digital, tarjeta de presentación, catálogo o landing page propia. Casos reales, enlaces vivos.">
+  <title>Portafolio KONFÍO ZINC — 37 negocios con su web propia</title>
+  <meta name="description" content="Portafolio de KONFÍO ZINC: 37 negocios colombianos con menú digital, tarjeta de presentación, catálogo o landing page propia. Casos reales, enlaces vivos.">
   <meta name="author" content="KONFÍO ZINC">
-  <meta property="og:title" content="Portafolio KONFÍO ZINC — 36 negocios con su web propia">
+  <meta property="og:title" content="Portafolio KONFÍO ZINC — 37 negocios con su web propia">
   <meta property="og:description" content="Menús digitales, tarjetas de presentación, catálogos y landing pages hechos por KONFÍO ZINC. Casos reales con enlace directo.">
   <meta property="og:image" content="https://konfiozinc.github.io/card/assets/img/og/og-portafolio.png">
   <meta property="og:image:width" content="1200">
@@ -65,6 +65,11 @@
        recortaban por los lados y parecían deformados. Con contain + relleno se ve el logo entero y
        con su proporción original en cualquier tamaño de pantalla. */
     .cliente-logo img{width:100%;height:100%;object-fit:contain;object-position:center;padding:5px;display:block}
+    /* KZ-QA-011 · antes de arreglar los archivos de origen, un logo de baja resolución se veía
+       pixelado al reducirlo a 56 px en móvil. Con -webkit-optimize-contrast el navegador interpola
+       con más cuidado el reescalado. Ahora los tres logos señalados ya salen de fuentes de 500 px
+       o más, así que esto es el remate, no el arreglo. */
+    .cliente-logo img{image-rendering:-webkit-optimize-contrast}
     .inicial{font-weight:900;font-size:22px;color:var(--tinta)}
     .cliente-texto{min-width:0;display:flex;flex-direction:column;gap:2px}
     .cliente-texto strong{font-size:.98rem;line-height:1.25}
@@ -88,12 +93,12 @@
           <p>Soluciones digitales · Medellín, Colombia</p>
         </div>
       </div>
-      <h2>36 negocios con su <b>propia web</b>, listos para abrir.</h2>
+      <h2>37 negocios con su <b>propia web</b>, listos para abrir.</h2>
       <p class="bajada">Menús digitales, tarjetas de presentación, catálogos y landing pages. Todos estos sitios son reales, están publicados y se pueden abrir desde aquí.</p>
       <nav class="migas" aria-label="Ir a una categoría">
         <a href="#menus">Menús digitales <b>3</b></a>
         <a href="#tarjetas">Tarjetas de presentación <b>25</b></a>
-        <a href="#catalogos">Catálogos y tiendas <b>2</b></a>
+        <a href="#catalogos">Catálogos y tiendas <b>3</b></a>
         <a href="#landings">Landing pages y sitios <b>6</b></a>
       </nav>
     </div>
@@ -352,16 +357,24 @@
         <header class="grupo-cab">
           <span class="grupo-icono" aria-hidden="true">🛍️</span>
           <div>
-            <h2>Catálogos y tiendas <span class="cuenta">2</span></h2>
+            <h2>Catálogos y tiendas <span class="cuenta">3</span></h2>
             <p>Productos con precios, filtros y pedido por WhatsApp.</p>
           </div>
         </header>
         <div class="rejilla">
         <a class="cliente" href="https://konfiozinc.github.io/isa-arenas/" target="_blank" rel="noopener">
-          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/isa-arenas.png" alt="Logotipo de Calzados ISA Arenas" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo"><img src="assets/logos/isa-arenas.png" alt="Logotipo de Calzados ISA Arenas" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>Calzados ISA Arenas</strong>
             <small>Calzados ISA Arenas: catálogo de calzado con estilo y comodidad. Pide por WhatsApp y conoce nuestras líneas.</small>
+          </span>
+          <span class="cliente-flecha" aria-hidden="true">→</span>
+        </a>
+        <a class="cliente" href="https://konfiozinc.github.io/proyecto-dta/" target="_blank" rel="noopener">
+          <span class="cliente-logo"><img src="assets/logos/dta-chanclas.png" alt="Logotipo de DTA Chanclas" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-texto">
+            <strong>DTA Chanclas</strong>
+            <small>Catálogo digital DTA Chanclas. Fabricantes y distribuidores en Bucaramanga. Dama planas, dama altas, altas cr…</small>
           </span>
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
@@ -418,7 +431,7 @@
           <span class="cliente-flecha" aria-hidden="true">→</span>
         </a>
         <a class="cliente" href="https://konfiozinc.github.io/redcalinet/" target="_blank" rel="noopener">
-          <span class="cliente-logo cliente-logo--oscuro"><img src="assets/logos/redcalinet.png" alt="Logotipo de Red CaliNet" width="96" height="96" loading="lazy" decoding="async"></span>
+          <span class="cliente-logo"><img src="assets/logos/redcalinet.webp" alt="Logotipo de Red CaliNet" width="96" height="96" loading="lazy" decoding="async"></span>
           <span class="cliente-texto">
             <strong>Red CaliNet</strong>
             <small>Red CaliNet en Bello, Antioquia: streaming, trámites y citas, TV por aplicación y tecnología (equipos y acces…</small>
